@@ -1,0 +1,141 @@
+/*Stylesheet for Trivia Game*/
+
+html {
+    height: 100%;   
+}
+
+body {
+	background: url("../images/background1.jpg"); 
+	height:100%;
+}
+
+.wrapper {
+	
+	background-color:white;
+	width: 960px;
+	margin: 0px auto;
+	padding-left: 70px;
+}
+
+.container {
+	box-sizing: border-box;
+	min-height: 100%;
+	width: 980px;
+	align-content: center;
+	margin-top: 20px;
+	margin:bottom: 20px;
+	background-color: white;
+}
+
+img {
+	border-radius: 4px;
+	max-height:450px;
+}
+
+.info {
+
+	text-align: center;
+	display: block;
+  	margin-left: 100px
+  	margin-right: auto;
+  	border-radius: 4px;
+}
+
+
+
+.red {
+	color:red;
+}
+
+.yellow {
+
+	color: yellow;
+}
+
+h1 {
+ 
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 50px;
+
+}
+
+h2 {
+
+	font-size: 20px;
+}
+
+p {
+
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 25px;
+}
+
+.question {
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 25px;
+
+}
+
+.choice {
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 25px;
+}
+
+
+.timer {
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 25px;
+	transition:.5s;
+}
+
+
+
+/*RESERVED FOR ALTERNATIVE STYLING USE 
+.container-bottom {
+	
+	box-sizing: border-box;
+	
+	min-height: 100%;
+	width: 960px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 30px;
+}*/
+
+ .row {
+
+ 	margin-top: 10px;
+ 	margin-bottom: 10px;
+ 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 30px;
+ }
+
+
+.start {
+	font-size: 30px;
+}
+
+
+.question {
+
+	font-size: 25px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.choice {
+	background-color: blue;
+	color: white;
+	font-size:25px;
+	border-radius:5px;
+	font-family: serif;
+	margin:5px;
+	width: 100%;
+}
+
+.choice:hover {
+	background-color: red;
+	color: white;
+	opacity:.8;
+	cursor:pointer;
+	
+}
+
